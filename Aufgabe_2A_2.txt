@@ -13,6 +13,7 @@ kleiner als 1 ist.
 • Vorgehensweise: Sie müssen die Binärdarstellung von n nicht explizit ermitteln. Programmieren
 Sie stattdessen eine Schleife, in der n wiederholt ganzzahlig durch 2 geteilt wird, 
 bis es zu 0 wird. 
+
 Zählen Sie dabei in einer Zählvariablen, wie oft die Schleife durchlaufen wird.
 
 • Das Resultat auf den Bildschirm ausgeben.
