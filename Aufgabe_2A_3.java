@@ -6,14 +6,14 @@ public class Aufgabe_2A_3 {
 
         BufferedReader eingabe = new BufferedReader(new InputStreamReader(System.in));
 
-        int rows;
+        int n;
         
         do {
             System.out.println("Wie viele reihen?");
-            rows = Integer.parseInt(eingabe.readLine());
-        } while (rows < 4);
+            n = Integer.parseInt(eingabe.readLine());
+        } while (n < 4);
         
-        for (int i = 1; i <= rows; ++i) {
+        for (int i = 1; i <= n; ++i) {
             for (int j = 1; j <= i; ++j) {
                 System.out.print("*");
             }
