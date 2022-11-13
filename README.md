@@ -1,5 +1,6 @@
 # HA2
  ## Aufgabe_2A_1 
+![image](https://user-images.githubusercontent.com/67957760/201545183-5e665c1b-ae32-49e2-9219-f029a3725471.png)
 
  Schreiben Sie ein entsprechendes Java-Programm in einer Datei `Aufgabe_2A_1.jav`a und führen Sie es aus. 
  
