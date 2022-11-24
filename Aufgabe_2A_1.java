@@ -1,9 +1,6 @@
 
 /*******************************************************************/
-/* Der z Wert gibt den Boolschen Wert (1-ja, 0-nein) aus.
-Er besagt, ob der gesuchte Wert c and Stelle i des 
-maximal 8-stelligen Strings übereinstimmen.
-Kurz: Der Wert z zeigt ob c in s vorhanden ist.
+/* Z-Wert gibt Anzahl des gesuchten C-Werts im String S aus
 /*******************************************************************/
 
 import java.io.*;
@@ -24,12 +21,11 @@ public class Aufgabe_2A_1{
             System.out.println("Gelesener String: " + s);
             System.out.println("s.length(): " + s.length());
         }
-        while (s.length() >= 8);
-
+        while (s.length() > 8);
 
         //Char Eingabe
         System.out.println("Bitte char-Wert eingeben: ");
-        c = (char) eingabe.read();
+        c = (char) eingabe.read(); 
         eingabe.readLine(); // wichtig: entfernt das Enter-Zeichen aus dem Eingabepuffer
         System.out.println("Gelesener char-Wert: " + c);
         System.out.println();
