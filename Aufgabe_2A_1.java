@@ -18,22 +18,25 @@ public class Aufgabe_2A_1{
         do {
             System.out.println("Bitte String kürzer als 8 eingeben: ");
             s = new String(eingabe.readLine());
-            System.out.println("Gelesener String: " + s);
-            System.out.println("s.length(): " + s.length());
+            s = s.toLowerCase(); 
+            //System.out.println("Gelesener String: " + s);
+            //Kontrollausgabe: Länge der Eingabe:
+            //System.out.println("s.length(): " + s.length()); 
         }
         while (s.length() > 8);
 
         //Char Eingabe
-        System.out.println("Bitte char-Wert eingeben: ");
+        System.out.println("Bitte einzelnen Char-Wert eingeben: ");
         c = (char) eingabe.read(); 
         eingabe.readLine(); // wichtig: entfernt das Enter-Zeichen aus dem Eingabepuffer
-        System.out.println("Gelesener char-Wert: " + c);
-        System.out.println();
-        //System.out.println(s.indexOf(c)+1);
+        c = Character.toLowerCase(c); 
+        //Kontrollausgabe: Char Eingabe:
+        //System.out.println("Gelesener char-Wert: " + c);
+    
 
-        int z = 0;
-        int i;
-        for (i=0; s.length()-1 >= i; i++){
+        int z = 0; //Zähler: Anzahl
+        int i; //Index-Zähler
+        for (i=0; s.length()-1 >= i; i++){ 
             if (c == s.charAt(i)) {
                 z++;
             } 
@@ -41,7 +44,7 @@ public class Aufgabe_2A_1{
             }       
         }
 
-        System.out.println(z); 
+        System.out.println(z); //Ausgabe Anzahl von C in S
     }
 
 }

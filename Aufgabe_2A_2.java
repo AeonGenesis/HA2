@@ -16,14 +16,13 @@ public class Aufgabe_2A_2{
         }while (n < 1);
 
         int out = n;
-        //Char Eingabe
-        //int max = (int) Math.pow(2, n);
+
         int i;
         for (i=0; n > 0; i++){
             n = n/2;
         }
-        System.out.println(i);  
-        //System.out.println(out+ " in binaer ist " + Integer.toBinaryString(out));       
+        System.out.println(i);  //Anzahl Zeichen der Binärzahl
+        System.out.println(out+ " in binaer ist " + Integer.toBinaryString(out)); //Kontrollausgabe: Eingabe in Binärdarstellun
     }
 
 }
