@@ -11,7 +11,7 @@ public class Aufgabe_2A_3 {
         do {
             System.out.println("Wie viele Reihen?");
             n = Integer.parseInt(eingabe.readLine());
-        } while (n < 3);
+        } while (n <= 3);
         
         for (int i = 1; i <= n; ++i) { //Anzahl Reihen
             for (int j = 1; j <= i; ++j) { // Anzahl Sternchen in Relation zu Reihen
