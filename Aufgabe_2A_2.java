@@ -10,9 +10,9 @@ public class Aufgabe_2A_2{
         
         //korrekte Eingabe prüfen
         do {
-            System.out.println("Bitte Granzzahl n groesser als 1 eingeben: ");
+            System.out.println("Bitte Ganzzahl n groesser als 1 eingeben: ");
             n = Integer.parseInt(eingabe.readLine());
-            System.out.println("eingegebene zahl: " + n);
+            System.out.println("eingegebene Zahl: " + n);
         }while (n < 1);
 
         int out = n;
@@ -23,7 +23,7 @@ public class Aufgabe_2A_2{
             n = n/2;
         }
         System.out.println(i);  
-        System.out.println(out+ " in binaer ist " + Integer.toBinaryString(out));       
+        //System.out.println(out+ " in binaer ist " + Integer.toBinaryString(out));       
     }
 
 }
